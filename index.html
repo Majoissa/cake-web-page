@@ -1,16 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Responsive Cake webpage</title>
-    <!-- Add a link to your css file here -->
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/cc8ddd7399.js"
+      crossorigin="anonymous"
+    ></script>
 
-<body>
-    <!-- Add your HTML here -->
-</body>
+  </head>
 
+  <body>
+    <nav class="navegador">
+      <h1 class="titulo">
+        Las mejores tortas de la ciudad, en la puerta de tu hogar
+      </h1>
+      <div class="menu-hamburguesa">
+        <input type="checkbox" id="menu" />
+        <label for="menu">
+          <i
+            class="fa-solid fa-bars"
+            style="color: #6D6875; font-size: 40px"
+          ></i>
+        </label>
+        <ul class="desplegar">
+          <li><a href="#nosotros">Nosotros</a></li>
+          <li><a href="#productos">Nuestros productos</a></li>
+          <li><a href="#contacto">Contactanos</a></li>
+        </ul>
+      </div>
+      <img class="portada" src="imagenes/torta7.jpg" alt="pastel" />
+    </nav>
+    <main>
+      <section class="nosotros" id="nosotros">
+        <h2>Nosotros</h2>
+        <div class="container-nosotros">
+      <p class="contenido">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam quisquam
+        numquam explicabo dolore at? Laudantium quidem tenetur illo dolorem
+        distinctio dolorum facere veritatis officia dicta ratione natus, quaerat
+        rem itaque! Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Facilis eligendi tenetur beatae provident repellendus vel reiciendis
+        earum voluptas temporibus? Animi nam repudiandae ea ipsa atque quibusdam
+        tenetur beatae, ullam facere. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit.
+      </p>
+      <img class="contenido" src="imagenes/torta1.jpg" alt="torta">
+    </div>
+    </section>
+    <section class="productos" id="productos">
+      <h2>Nuestros productos</h2>
+      <div class="contenedor">
+        <div class="card">
+          <img src="imagenes/torta2.jpg" alt="torta">
+          <h3>Torta deli</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          <p>Precio: <span>$35</span></p>
+        </div>
+        <div class="card">
+          <img src="imagenes/torta3.jpg" alt="torta">
+          <h3>Torta deli</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          <p>Precio: <span>$35</span></p>
+        </div>
+        <div class="card">
+          <img src="imagenes/torta4.jpg" alt="torta">
+          <h3>Torta deli</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          <p>Precio: <span>$35</span></p>
+        </div>
+        <div class="card">
+          <img src="imagenes/torta6.jpg" alt="torta">
+          <h3>Torta deli</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          <p>Precio: <span>$35</span></p>
+        </div>
+        <div class="card">
+          <img src="imagenes/torta8.jpg" alt="torta">
+          <h3>Torta deli</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          <p>Precio: <span>$35</span></p>
+        </div>
+        <div class="card">
+          <img src="imagenes/torta9.jpg" alt="torta">
+          <h3>Torta deli</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+          <p>Precio: <span>$35</span></p>
+        </div>
+      </div>
+    </section>
+    </main>
+    <footer class="contacto" id="contacto">
+      <div class="redes">
+        <p><a href="">Instagram</a></p>
+        <p><a href="">Facebook</a></p>
+        <p><a href="">Whatsapp</a></p>
+      </div>
+    </footer>
+  </body>
 </html>
