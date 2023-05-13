@@ -100,13 +100,13 @@ h3{
 
   .titulo{
     position:absolute;
-    top: 185px;
+    top: 180px;
     z-index: 4;
-    font-family: 'Woman Love', sans-serif;
+    font-family: 'Woman Love', cursive;
     color: #362A39;
-    max-width: 350px;
+    max-width: 300px;
     right: 0;
-    font-size: 15px;
+    font-size: 30px;
   }
 
   /*Main*/
@@ -206,10 +206,10 @@ h3{
     }
   
     .titulo{
-      top: 230px;
+      top: 250px;
       max-width: 400px;
       right: 15px;
-      font-size: 30px;
+      font-size: 35px;
     }
     h2{
         font-size: 35px;
